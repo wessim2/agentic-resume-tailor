@@ -6,6 +6,8 @@ dist/
 # Agent System Directories
 .agents/
 .gemini/
+skills/
+adk_learning_guide.md
 
 # LaTeX Build Outputs & Temporary Files
 resume.pdf
