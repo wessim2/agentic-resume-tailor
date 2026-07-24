@@ -1,0 +1,10 @@
+services:
+  latex-compiler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: resume-latex-compiler:latest
+    volumes:
+      - .:/workdir
+    working_dir: /workdir
+    entrypoint: pdflatex -interaction=nonstopmode

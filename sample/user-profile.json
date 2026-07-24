@@ -1,0 +1,63 @@
+{
+  "candidate": {
+    "name": "Alex Morgan",
+    "title": "Senior Full-Stack & AI Systems Engineer",
+    "email": "alex.morgan@example.com",
+    "phone": "+1 (555) 019-2834",
+    "location": "San Francisco, CA",
+    "summary": "Senior Software Engineer specializing in high-throughput backend services, TypeScript, AI agentic workflows, and cloud-native infrastructure."
+  },
+  "projectVault": [
+    {
+      "id": "proj-1",
+      "title": "Automated Resume Tailoring & Compilation Pipeline",
+      "role": "Lead Architect",
+      "techStack": ["TypeScript", "Node.js", "Gemini API", "Docker", "LaTeX", "MCP"],
+      "bullets": [
+        "Architected an automated LaTeX document compilation pipeline using Node.js and Gemini API to tailor resumes to job descriptions with 98% ATS relevance score.",
+        "Containerized TeX Live compilation using Docker Compose to achieve sub-5-second PDF builds across cross-platform environments.",
+        "Exposed core pipeline capabilities as a Model Context Protocol (MCP) server for autonomous AI agent integration."
+      ],
+      "tags": ["AI", "TypeScript", "Node.js", "Docker", "LaTeX", "MCP"]
+    },
+    {
+      "id": "proj-2",
+      "title": "High-Throughput Microservice API Gateway",
+      "role": "Backend Engineer",
+      "techStack": ["Go", "Redis", "gRPC", "Docker", "Kubernetes"],
+      "bullets": [
+        "Engineered a distributed API gateway handling over 1.2M daily RPC requests with p99 latency below 15ms.",
+        "Implemented distributed rate-limiting algorithms and Redis caching, cutting database load by 45% during peak traffic."
+      ],
+      "tags": ["Backend", "Go", "Microservices", "Kubernetes", "Performance"]
+    },
+    {
+      "id": "proj-3",
+      "title": "Real-Time Financial Analytics Dashboard",
+      "role": "Full-Stack Developer",
+      "techStack": ["React", "TypeScript", "WebSockets", "Node.js", "PostgreSQL"],
+      "bullets": [
+        "Built responsive real-time data visualization dashboard rendering 5,000+ live tick streams with 60fps UI performance.",
+        "Optimized SQL window functions and database indexing to speed up complex queries by 4.5x."
+      ],
+      "tags": ["Frontend", "React", "TypeScript", "WebSockets", "SQL"]
+    },
+    {
+      "id": "proj-4",
+      "title": "LLM Retrieval-Augmented Generation (RAG) Platform",
+      "role": "AI Specialist",
+      "techStack": ["Python", "FastAPI", "Pinecone", "OpenAI API", "LangChain", "Docker"],
+      "bullets": [
+        "Designed and deployed enterprise RAG pipeline ingesting 100k+ PDF documents into Pinecone vector database with semantic chunking.",
+        "Reduced hallucination rates by 30% using hybrid BM25 and dense vector search re-ranking strategies."
+      ],
+      "tags": ["AI", "Python", "RAG", "Vector DB", "FastAPI"]
+    }
+  ],
+  "masterSkills": {
+    "languages": ["TypeScript", "JavaScript", "Python", "Go", "SQL", "HTML/CSS"],
+    "frameworks": ["Node.js", "Express", "React", "Next.js", "FastAPI"],
+    "tools": ["Docker", "Docker Compose", "Kubernetes", "Git", "CI/CD", "AWS", "LaTeX"],
+    "databases": ["PostgreSQL", "Redis", "Pinecone", "MongoDB"]
+  }
+}
